@@ -73,7 +73,8 @@ h1>Welcome to nginx!</h1>
 
 
 ```
-![image](https://hackmd.io/_uploads/HJ22XQkQGl.png)
+<img width="832" height="366" alt="image" src="https://github.com/user-attachments/assets/f2c9cd33-7432-440e-b1fd-be68e5bfac39" />
+
 ```
 ubuntu@ubuntu-1:/var/www/testweb$ cat info.php 
 <?php
@@ -82,10 +83,12 @@ phpinfo();
 ?>
 
 ```
-![image](https://hackmd.io/_uploads/BJe71Imkmzx.png)
+<img width="1425" height="666" alt="image" src="https://github.com/user-attachments/assets/e314db0d-7868-4325-a4ca-bda59af994d7" />
 
 
-![image](https://hackmd.io/_uploads/B1wvUXyXfe.png)
+
+<img width="478" height="302" alt="image" src="https://github.com/user-attachments/assets/0abbe246-ea71-4549-a7fb-fa2d8888e4c1" />
+
 
 
 
@@ -123,7 +126,8 @@ default via 172.25.250.2 dev ens160 proto dhcp metric 100
 ```
 
 ==ACL==
-![image](https://hackmd.io/_uploads/ryobk4Jmfl.png)
+<img width="846" height="262" alt="image" src="https://github.com/user-attachments/assets/bf58297c-9fa5-4ecc-9ef1-2c6645d9a72b" />
+
 
 ## Web-term1 (192.168.100.3)可連外網
 ```
@@ -157,7 +161,8 @@ target     prot opt source               destination
 
 ==R1 route setting==
 
-![image](https://hackmd.io/_uploads/r1RmsXyQMl.png)
+<img width="992" height="350" alt="image" src="https://github.com/user-attachments/assets/46cda8df-81d1-430e-9fe9-c9f8edf72e49" />
+
 
 
 
@@ -177,4 +182,5 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 }
 ```
 
-![image](https://hackmd.io/_uploads/B16nbEJ7fe.png)
+<img width="992" height="350" alt="image" src="https://github.com/user-attachments/assets/9a12021a-d524-42fe-a0c1-584c343cdeae" />
+
