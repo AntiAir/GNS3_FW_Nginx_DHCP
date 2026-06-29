@@ -167,7 +167,27 @@ target     prot opt source               destination
 ```
 
 ==R1 route setting==
-
+```
+! ========= R1 課堂一秒還原文字檔 =========
+enable
+configure terminal
+!
+interface FastEthernet0/0
+ ip address 192.168.0.1 255.255.255.0
+ no shutdown
+!
+interface FastEthernet0/1
+ ip address 192.168.100.254 255.255.255.0
+ no shutdown
+!
+interface FastEthernet1/0
+ ip address 220.196.200.254 255.255.255.0
+ no shutdown
+!
+ip route 0.0.0.0 0.0.0.0 192.168.0.254
+end
+write
+```
 <img width="992" height="350" alt="image" src="https://github.com/user-attachments/assets/46cda8df-81d1-430e-9fe9-c9f8edf72e49" />
 
 
