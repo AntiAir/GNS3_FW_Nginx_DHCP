@@ -135,7 +135,9 @@ ubuntu@ubuntu-1:/var/www/testweb$ sudo iptables -t nat -A POSTROUTING -s 192.168
 [sudo] password for ubuntu: 
 ```
 或
+
 ==# 允許整個 192.168.100.0/24 網段進行 NAT 轉換==
+
 :::danger
 sudo iptables -t nat -A POSTROUTING -s 192.168.100.0/24 -o ens160 -j MASQUERADE
 :::
