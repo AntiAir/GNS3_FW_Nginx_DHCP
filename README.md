@@ -182,5 +182,6 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 }
 ```
 
-<img width="992" height="350" alt="image" src="https://github.com/user-attachments/assets/9a12021a-d524-42fe-a0c1-584c343cdeae" />
+<img width="1167" height="442" alt="image" src="https://github.com/user-attachments/assets/2cdf594f-3301-4474-9045-456004ba4bb5" />
+
 
