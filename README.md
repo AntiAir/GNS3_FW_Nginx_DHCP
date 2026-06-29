@@ -134,6 +134,11 @@ default via 172.25.250.2 dev ens160 proto dhcp metric 100
 ubuntu@ubuntu-1:/var/www/testweb$ sudo iptables -t nat -A POSTROUTING -s 192.168.100.3 -o ens160 -j MASQUERADE
 [sudo] password for ubuntu: 
 ```
+或
+==# 允許整個 192.168.100.0/24 網段進行 NAT 轉換==
+:::danger
+sudo iptables -t nat -A POSTROUTING -s 192.168.100.0/24 -o ens160 -j MASQUERADE
+:::
 ## PC2 (192.168.100.2) 不能連外網, 不可連Nginx
 ```
 ubuntu@ubuntu-1:/var/www/testweb$ sudo iptables -A FORWARD -s 192.168.100.2 -o ens160 -j DROP
